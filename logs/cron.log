@@ -1924,3 +1924,2265 @@ Remote cutoff: 20250524 (keep last 100 days)
 mkdir: Access failed: 550 Can't create directory: File exists (/train)
 Uploaded: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250901.json
 Remote delete: no old files.
+=== 2025-09-02 04:35:01 start ===
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 11
+ progress: 50/312 candidates, kept 19
+ progress: 200/312 candidates, kept 49
+ progress: 225/312 candidates, kept 58
+ progress: 275/312 candidates, kept 74
+shinjuku_to_keiohachioji [weekday] 本数: 85
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 5
+ progress: 50/312 candidates, kept 11
+ progress: 200/312 candidates, kept 43
+ progress: 225/312 candidates, kept 47
+ progress: 275/312 candidates, kept 59
+shinjuku_to_keiohachioji [holiday] 本数: 70
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 24
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 49
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 74
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 98
+kitano_to_takao [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 23
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 48
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 73
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 97
+kitano_to_takao [holiday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 26
+ progress: 75/211 candidates, kept 39
+ progress: 100/211 candidates, kept 51
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 74
+ progress: 175/211 candidates, kept 87
+ progress: 200/211 candidates, kept 99
+takao_to_up [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 24
+ progress: 75/211 candidates, kept 36
+ progress: 100/211 candidates, kept 49
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 76
+ progress: 175/211 candidates, kept 88
+ progress: 200/211 candidates, kept 101
+takao_to_up [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-02T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250902_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250902.json
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250902_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250902_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250902_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250902_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+Local cutoff:  20250803  (keep last 30 days)
+Remote cutoff: 20250525 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250902_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250902_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-02 05:36:34 done ===
+Local cutoff:  20250803  (keep last 30 days)
+Remote cutoff: 20250525 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250902_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250902_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-03 04:35:01 start ===
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 11
+ progress: 50/312 candidates, kept 19
+ progress: 200/312 candidates, kept 49
+ progress: 225/312 candidates, kept 58
+ progress: 275/312 candidates, kept 74
+shinjuku_to_keiohachioji [weekday] 本数: 85
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 5
+ progress: 50/312 candidates, kept 11
+ progress: 200/312 candidates, kept 43
+ progress: 225/312 candidates, kept 47
+ progress: 275/312 candidates, kept 59
+shinjuku_to_keiohachioji [holiday] 本数: 70
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 24
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 49
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 74
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 98
+kitano_to_takao [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 23
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 48
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 73
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 97
+kitano_to_takao [holiday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 26
+ progress: 75/211 candidates, kept 39
+ progress: 100/211 candidates, kept 51
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 74
+ progress: 175/211 candidates, kept 87
+ progress: 200/211 candidates, kept 99
+takao_to_up [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 24
+ progress: 75/211 candidates, kept 36
+ progress: 100/211 candidates, kept 49
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 76
+ progress: 175/211 candidates, kept 88
+ progress: 200/211 candidates, kept 101
+takao_to_up [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-03T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250903_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250903.json
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250903_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250903_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250903_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250903_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+Local cutoff:  20250804  (keep last 30 days)
+Remote cutoff: 20250526 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250903_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250903_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-03 05:36:16 done ===
+Local cutoff:  20250804  (keep last 30 days)
+Remote cutoff: 20250526 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250903_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250903_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-04 04:35:01 start ===
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 11
+ progress: 50/312 candidates, kept 19
+ progress: 200/312 candidates, kept 49
+ progress: 225/312 candidates, kept 58
+ progress: 275/312 candidates, kept 74
+shinjuku_to_keiohachioji [weekday] 本数: 85
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 5
+ progress: 50/312 candidates, kept 11
+ progress: 200/312 candidates, kept 43
+ progress: 225/312 candidates, kept 47
+ progress: 275/312 candidates, kept 59
+shinjuku_to_keiohachioji [holiday] 本数: 70
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 24
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 49
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 74
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 98
+kitano_to_takao [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 23
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 48
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 73
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 97
+kitano_to_takao [holiday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 26
+ progress: 75/211 candidates, kept 39
+ progress: 100/211 candidates, kept 51
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 74
+ progress: 175/211 candidates, kept 87
+ progress: 200/211 candidates, kept 99
+takao_to_up [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 24
+ progress: 75/211 candidates, kept 36
+ progress: 100/211 candidates, kept 49
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 76
+ progress: 175/211 candidates, kept 88
+ progress: 200/211 candidates, kept 101
+takao_to_up [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-04T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250904_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250904.json
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250904_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250904_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250904_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250904_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+Local cutoff:  20250805  (keep last 30 days)
+Remote cutoff: 20250527 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250904_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250904_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-04 05:36:18 done ===
+Local cutoff:  20250805  (keep last 30 days)
+Remote cutoff: 20250527 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250904_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250904_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-05 04:35:01 start ===
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 9
+ progress: 50/312 candidates, kept 17
+ progress: 200/312 candidates, kept 47
+ progress: 225/312 candidates, kept 56
+ progress: 275/312 candidates, kept 72
+shinjuku_to_keiohachioji [weekday] 本数: 83
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 7
+ progress: 50/312 candidates, kept 13
+ progress: 200/312 candidates, kept 45
+ progress: 225/312 candidates, kept 49
+ progress: 275/312 candidates, kept 61
+shinjuku_to_keiohachioji [holiday] 本数: 72
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 22
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 47
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 72
+ progress: 175/219 candidates, kept 84
+ progress: 200/219 candidates, kept 96
+kitano_to_takao [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 25
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 50
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 75
+ progress: 175/219 candidates, kept 88
+ progress: 200/219 candidates, kept 99
+kitano_to_takao [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 38
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 73
+ progress: 175/211 candidates, kept 86
+ progress: 200/211 candidates, kept 98
+takao_to_up [weekday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 37
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 77
+ progress: 175/211 candidates, kept 89
+ progress: 200/211 candidates, kept 102
+takao_to_up [holiday] 本数: 107
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-05T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250905_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250905.json
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250905_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250905_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250905_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/../py_data/keio/publish/20250905_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/publish/timetables.html
+Local cutoff:  20250806  (keep last 30 days)
+Remote cutoff: 20250528 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250905_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250905_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-05 05:36:40 done ===
+Local cutoff:  20250806  (keep last 30 days)
+Remote cutoff: 20250528 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250905_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250905_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-06 04:35:01 start ===
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 9
+ progress: 50/312 candidates, kept 17
+ progress: 200/312 candidates, kept 47
+ progress: 225/312 candidates, kept 56
+ progress: 275/312 candidates, kept 72
+shinjuku_to_keiohachioji [weekday] 本数: 83
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 7
+ progress: 50/312 candidates, kept 13
+ progress: 200/312 candidates, kept 45
+ progress: 225/312 candidates, kept 49
+ progress: 275/312 candidates, kept 61
+shinjuku_to_keiohachioji [holiday] 本数: 72
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 22
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 47
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 72
+ progress: 175/219 candidates, kept 84
+ progress: 200/219 candidates, kept 96
+kitano_to_takao [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 25
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 50
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 75
+ progress: 175/219 candidates, kept 88
+ progress: 200/219 candidates, kept 99
+kitano_to_takao [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 38
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 73
+ progress: 175/211 candidates, kept 86
+ progress: 200/211 candidates, kept 98
+takao_to_up [weekday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 37
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 77
+ progress: 175/211 candidates, kept 89
+ progress: 200/211 candidates, kept 102
+takao_to_up [holiday] 本数: 107
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-06T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/20250906_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_code/py_data/keio/publish/takao35_timetable_20250906.json
+データは /home/masuday/projects/takao35/py_code/keio/../py_data/keio/publish/20250906_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/keio/../py_data/keio/publish/20250906_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/keio/../py_data/keio/publish/20250906_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/keio/../py_data/keio/publish/20250906_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/keio/../py_data/keio/publish/timetables.html
+Local cutoff:  20250807  (keep last 30 days)
+Remote cutoff: 20250529 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250905_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250905_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-06 05:36:51 done ===
+Local cutoff:  20250807  (keep last 30 days)
+Remote cutoff: 20250529 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/keio/publish/20250905_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/keio/publish/20250905_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/keio/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+更新OK: 17:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 18:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+更新OK: 18:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 19:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 20:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 21:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 22:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 23:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 00:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 01:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 02:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 03:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 04:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+=== 2025-09-07 04:35:01 start ===
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 05:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+Local cutoff:  20250808  (keep last 30 days)
+Remote cutoff: 20250530 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/train/publish/20250906_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/train/publish/20250906_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/train/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 11
+ progress: 50/312 candidates, kept 19
+ progress: 200/312 candidates, kept 49
+ progress: 225/312 candidates, kept 58
+ progress: 275/312 candidates, kept 74
+shinjuku_to_keiohachioji [weekday] 本数: 85
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 5
+ progress: 50/312 candidates, kept 11
+ progress: 200/312 candidates, kept 43
+ progress: 225/312 candidates, kept 47
+ progress: 275/312 candidates, kept 59
+shinjuku_to_keiohachioji [holiday] 本数: 70
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 24
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 49
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 74
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 98
+kitano_to_takao [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 23
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 48
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 73
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 97
+kitano_to_takao [holiday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 26
+ progress: 75/211 candidates, kept 39
+ progress: 100/211 candidates, kept 51
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 74
+ progress: 175/211 candidates, kept 87
+ progress: 200/211 candidates, kept 99
+takao_to_up [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 24
+ progress: 75/211 candidates, kept 36
+ progress: 100/211 candidates, kept 49
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 76
+ progress: 175/211 candidates, kept 88
+ progress: 200/211 candidates, kept 101
+takao_to_up [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-07T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250907_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/train/publish/takao35_timetable_20250907.json
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250907_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250907_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250907_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250907_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/timetables.html
+Local cutoff:  20250808  (keep last 30 days)
+Remote cutoff: 20250530 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/train/publish/20250907_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/train/publish/20250907_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/train/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-07 05:53:07 done ===
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 06:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 07:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 08:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 09:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 10:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 11:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 12:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 446, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 441, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib64/python3.9/socket.py", line 716, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib64/python3.9/ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib64/python3.9/ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.9/site-packages/urllib3/util/retry.py", line 534, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.9/site-packages/urllib3/packages/six.py", line 709, in reraise
+    raise value
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 448, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 337, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='traininfo.jreast.co.jp', port=443): Read timed out. (read timeout=20)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/train/rail_status.py", line 176, in main
+    jr_area_html = fetch_html(JR_AREA)
+  File "/home/masuday/projects/takao35/py_code/train/rail_status.py", line 36, in fetch_html
+    r = requests.get(url, headers=HEADERS, timeout=20)
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.9/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='traininfo.jreast.co.jp', port=443): Read timed out. (read timeout=20)
+rail status: ERROR HTTPSConnectionPool(host='traininfo.jreast.co.jp', port=443): Read timed out. (read timeout=20)
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 13:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 14:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 15:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 16:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 17:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 18:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 19:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 20:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 21:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 22:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 23:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 00:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 01:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 02:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 03:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 04:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+=== 2025-09-08 04:35:01 start ===
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 05:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+Local cutoff:  20250809  (keep last 30 days)
+Remote cutoff: 20250531 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/train/publish/20250907_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/train/publish/20250907_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/train/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 9
+ progress: 50/312 candidates, kept 17
+ progress: 200/312 candidates, kept 47
+ progress: 225/312 candidates, kept 56
+ progress: 275/312 candidates, kept 72
+shinjuku_to_keiohachioji [weekday] 本数: 83
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 7
+ progress: 50/312 candidates, kept 13
+ progress: 200/312 candidates, kept 45
+ progress: 225/312 candidates, kept 49
+ progress: 275/312 candidates, kept 61
+shinjuku_to_keiohachioji [holiday] 本数: 72
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 22
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 47
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 72
+ progress: 175/219 candidates, kept 84
+ progress: 200/219 candidates, kept 96
+kitano_to_takao [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 25
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 50
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 75
+ progress: 175/219 candidates, kept 88
+ progress: 200/219 candidates, kept 99
+kitano_to_takao [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 38
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 73
+ progress: 175/211 candidates, kept 86
+ progress: 200/211 candidates, kept 98
+takao_to_up [weekday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 37
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 77
+ progress: 175/211 candidates, kept 89
+ progress: 200/211 candidates, kept 102
+takao_to_up [holiday] 本数: 107
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-08T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250908_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/train/publish/takao35_timetable_20250908.json
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250908_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250908_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250908_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250908_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/timetables.html
+Local cutoff:  20250809  (keep last 30 days)
+Remote cutoff: 20250531 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/train/publish/20250908_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/train/publish/20250908_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/train/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-08 05:52:29 done ===
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 06:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 07:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 08:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 09:00時点
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 10:00時点
+latest_time:2025-09-08T10:00:00+09:00
+Loaded AMeDAS data {'20250908090000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.5, 0], 'humidity': [65, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [1.6, 0], 'maxTempTime': {'hour': 23, 'minute': 51}, 'maxTemp': [30.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 20, 'minute': 47}, 'gustDirection': [10, 0], 'gust': [3.7, 0]}, '20250908091000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.3, 0], 'humidity': [63, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [1.6, 0], 'maxTempTime': {'hour': 23, 'minute': 51}, 'maxTemp': [30.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908092000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.7, 0], 'humidity': [62, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [1.3, 0], 'maxTempTime': {'hour': 0, 'minute': 18}, 'maxTemp': [30.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908093000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.7, 0], 'humidity': [61, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [1.0, 0], 'maxTempTime': {'hour': 0, 'minute': 28}, 'maxTemp': [31.7, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908094000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.4, 0], 'humidity': [61, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [3, 0], 'wind': [1.5, 0], 'maxTempTime': {'hour': 0, 'minute': 37}, 'maxTemp': [31.8, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908095000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.8, 0], 'humidity': [58, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [1.7, 0], 'maxTempTime': {'hour': 0, 'minute': 42}, 'maxTemp': [32.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908100000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.8, 0], 'humidity': [58, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [2.3, 0], 'maxTempTime': {'hour': 0, 'minute': 42}, 'maxTemp': [32.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 52}, 'gustDirection': [16, 0], 'gust': [5.1, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 11:00時点
+latest_time:2025-09-08T11:00:00+09:00
+Loaded AMeDAS data {'20250908090000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.5, 0], 'humidity': [65, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [1.6, 0], 'maxTempTime': {'hour': 23, 'minute': 51}, 'maxTemp': [30.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 20, 'minute': 47}, 'gustDirection': [10, 0], 'gust': [3.7, 0]}, '20250908091000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.3, 0], 'humidity': [63, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [1.6, 0], 'maxTempTime': {'hour': 23, 'minute': 51}, 'maxTemp': [30.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908092000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.7, 0], 'humidity': [62, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [1.3, 0], 'maxTempTime': {'hour': 0, 'minute': 18}, 'maxTemp': [30.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908093000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.7, 0], 'humidity': [61, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [1.0, 0], 'maxTempTime': {'hour': 0, 'minute': 28}, 'maxTemp': [31.7, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908094000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.4, 0], 'humidity': [61, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [3, 0], 'wind': [1.5, 0], 'maxTempTime': {'hour': 0, 'minute': 37}, 'maxTemp': [31.8, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908095000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.8, 0], 'humidity': [58, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [1.7, 0], 'maxTempTime': {'hour': 0, 'minute': 42}, 'maxTemp': [32.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 9}, 'gustDirection': [3, 0], 'gust': [4.1, 0]}, '20250908100000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.8, 0], 'humidity': [58, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [2.3, 0], 'maxTempTime': {'hour': 0, 'minute': 42}, 'maxTemp': [32.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 52}, 'gustDirection': [16, 0], 'gust': [5.1, 0]}, '20250908101000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.8, 0], 'humidity': [57, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 1, 'minute': 9}, 'maxTemp': [32.4, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 52}, 'gustDirection': [16, 0], 'gust': [5.1, 0]}, '20250908102000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [31.9, 0], 'humidity': [55, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.2, 0], 'maxTempTime': {'hour': 1, 'minute': 15}, 'maxTemp': [32.5, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 52}, 'gustDirection': [16, 0], 'gust': [5.1, 0]}, '20250908103000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [32.9, 0], 'humidity': [55, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [3, 0], 'wind': [1.0, 0], 'maxTempTime': {'hour': 1, 'minute': 30}, 'maxTemp': [32.9, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 0, 'minute': 52}, 'gustDirection': [16, 0], 'gust': [5.1, 0]}, '20250908104000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [32.2, 0], 'humidity': [56, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [2, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 1, 'minute': 36}, 'maxTemp': [33.2, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 1, 'minute': 33}, 'gustDirection': [3, 0], 'gust': [6.0, 0]}, '20250908105000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [53, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [16, 0], 'wind': [1.1, 0], 'maxTempTime': {'hour': 1, 'minute': 50}, 'maxTemp': [33.6, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 1, 'minute': 33}, 'gustDirection': [3, 0], 'gust': [6.0, 0]}, '20250908110000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [32.3, 0], 'humidity': [55, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [6, 0], 'wind': [1.5, 0], 'maxTempTime': {'hour': 1, 'minute': 51}, 'maxTemp': [33.7, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 1, 'minute': 33}, 'gustDirection': [3, 0], 'gust': [6.0, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 12:00時点
+latest_time:2025-09-08T12:00:00+09:00
+Loaded AMeDAS data {'20250908120000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.2, 0], 'humidity': [48, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [3.4, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 13:00時点
+latest_time:2025-09-08T13:00:00+09:00
+Loaded AMeDAS data {'20250908120000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.2, 0], 'humidity': [48, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [3.4, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908121000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.7, 0], 'humidity': [50, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [13, 0], 'wind': [1.5, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908122000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [48, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [2.1, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908123000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [46, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.6, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908124000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [47, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.6, 0], 'maxTempTime': {'hour': 3, 'minute': 39}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908125000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.0, 0], 'humidity': [49, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.7, 0], 'maxTempTime': {'hour': 3, 'minute': 39}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908130000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.6, 0], 'humidity': [47, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [1.8, 0], 'maxTempTime': {'hour': 3, 'minute': 39}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 14:00時点
+latest_time:2025-09-08T14:00:00+09:00
+Loaded AMeDAS data {'20250908120000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.2, 0], 'humidity': [48, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [3.4, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908121000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.7, 0], 'humidity': [50, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [13, 0], 'wind': [1.5, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908122000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [48, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [2.1, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908123000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [46, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.6, 0], 'maxTempTime': {'hour': 2, 'minute': 57}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908124000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [47, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.6, 0], 'maxTempTime': {'hour': 3, 'minute': 39}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908125000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.0, 0], 'humidity': [49, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.7, 0], 'maxTempTime': {'hour': 3, 'minute': 39}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908130000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.6, 0], 'humidity': [47, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [1.8, 0], 'maxTempTime': {'hour': 3, 'minute': 39}, 'maxTemp': [35.3, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908131000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.2, 0], 'humidity': [49, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 4, 'minute': 4}, 'maxTemp': [35.6, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908132000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.3, 0], 'humidity': [51, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [2.9, 0], 'maxTempTime': {'hour': 4, 'minute': 4}, 'maxTemp': [35.6, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908133000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.5, 0], 'humidity': [50, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [3, 0], 'wind': [3.5, 0], 'maxTempTime': {'hour': 4, 'minute': 4}, 'maxTemp': [35.6, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908134000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [36.1, 0], 'humidity': [48, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [2.2, 0], 'maxTempTime': {'hour': 4, 'minute': 40}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908135000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.6, 0], 'humidity': [51, 0], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [3, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}, '20250908140000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [34.9, 0], 'humidity': [48, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [10, 0], 'sun1h': [1.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [1, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 2, 'minute': 54}, 'gustDirection': [4, 0], 'gust': [6.4, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 15:00時点
+latest_time:2025-09-08T15:00:00+09:00
+Loaded AMeDAS data {'20250908150000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [57, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.2, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [3.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 16:00時点
+latest_time:2025-09-08T16:00:00+09:00
+Loaded AMeDAS data {'20250908150000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [57, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.2, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [3.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908151000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.5, 0], 'humidity': [56, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.5, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908152000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [55, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.2, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908153000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [54, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [7, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908154000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.6, 0], 'humidity': [76, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [2.5, 0], 'precipitation1h': [2.5, 0], 'precipitation3h': [2.5, 0], 'precipitation24h': [2.5, 0], 'windDirection': [4, 0], 'wind': [4.1, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 40}, 'gustDirection': [2, 0], 'gust': [8.0, 0]}, '20250908155000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.1, 0], 'humidity': [74, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [1.5, 0], 'precipitation1h': [4.0, 0], 'precipitation3h': [4.0, 0], 'precipitation24h': [4.0, 0], 'windDirection': [4, 0], 'wind': [5.0, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908160000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.1, 0], 'humidity': [80, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [1.0, 0], 'precipitation1h': [5.0, 0], 'precipitation3h': [5.0, 0], 'precipitation24h': [5.0, 0], 'windDirection': [4, 0], 'wind': [4.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 17:00時点
+latest_time:2025-09-08T17:00:00+09:00
+Loaded AMeDAS data {'20250908150000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [57, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.2, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [5, 0], 'wind': [3.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908151000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.5, 0], 'humidity': [56, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.5, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908152000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [55, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [4, 0], 'wind': [2.2, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908153000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [33.6, 0], 'humidity': [54, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [0.0, 0], 'windDirection': [7, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 5, 'minute': 16}, 'gustDirection': [2, 0], 'gust': [6.9, 0]}, '20250908154000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.6, 0], 'humidity': [76, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [2.5, 0], 'precipitation1h': [2.5, 0], 'precipitation3h': [2.5, 0], 'precipitation24h': [2.5, 0], 'windDirection': [4, 0], 'wind': [4.1, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 40}, 'gustDirection': [2, 0], 'gust': [8.0, 0]}, '20250908155000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [30.1, 0], 'humidity': [74, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [1.5, 0], 'precipitation1h': [4.0, 0], 'precipitation3h': [4.0, 0], 'precipitation24h': [4.0, 0], 'windDirection': [4, 0], 'wind': [5.0, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908160000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.1, 0], 'humidity': [80, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [1.0, 0], 'precipitation1h': [5.0, 0], 'precipitation3h': [5.0, 0], 'precipitation24h': [5.0, 0], 'windDirection': [4, 0], 'wind': [4.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908161000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [29.0, 0], 'humidity': [83, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.5, 0], 'precipitation1h': [5.5, 0], 'precipitation3h': [5.5, 0], 'precipitation24h': [5.5, 0], 'windDirection': [4, 0], 'wind': [4.5, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908162000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.8, 0], 'humidity': [82, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.5, 0], 'precipitation1h': [6.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [1, 0], 'wind': [4.3, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908163000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.8, 0], 'humidity': [82, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [6.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [5.1, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908164000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.8, 0], 'humidity': [80, 0], 'sun10m': [2, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [3.5, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [6.0, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 6, 'minute': 41}, 'gustDirection': [4, 0], 'gust': [9.9, 0]}, '20250908165000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.2, 0], 'humidity': [79, 0], 'sun10m': [7, 0], 'sun1h': [0.2, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [2.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [5.5, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908170000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.9, 0], 'humidity': [80, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [5, 0], 'sun1h': [0.2, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [1.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [1, 0], 'wind': [6.5, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 18:00時点
+latest_time:2025-09-08T18:00:00+09:00
+Loaded AMeDAS data {'20250908180000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.0, 0], 'humidity': [80, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [14, 0], 'wind': [0.7, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 19:00時点
+latest_time:2025-09-08T19:00:00+09:00
+Loaded AMeDAS data {'20250908180000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.0, 0], 'humidity': [80, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [14, 0], 'wind': [0.7, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908181000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.8, 0], 'humidity': [81, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [1.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908182000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.4, 0], 'humidity': [84, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [2, 0], 'wind': [3.2, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908183000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.4, 0], 'humidity': [83, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [1, 0], 'wind': [2.7, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908184000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.1, 0], 'humidity': [86, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [3.5, 0], 'precipitation24h': [6.0, 0], 'windDirection': [1, 0], 'wind': [3.4, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908185000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.3, 0], 'humidity': [85, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [2.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [1.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908190000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.1, 0], 'humidity': [86, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [1.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [15, 0], 'wind': [1.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 20:00時点
+latest_time:2025-09-08T20:00:00+09:00
+Loaded AMeDAS data {'20250908180000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [28.0, 0], 'humidity': [80, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [14, 0], 'wind': [0.7, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908181000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.8, 0], 'humidity': [81, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [1.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908182000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.4, 0], 'humidity': [84, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [2, 0], 'wind': [3.2, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908183000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.4, 0], 'humidity': [83, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [6.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [1, 0], 'wind': [2.7, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908184000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.1, 0], 'humidity': [86, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [3.5, 0], 'precipitation24h': [6.0, 0], 'windDirection': [1, 0], 'wind': [3.4, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908185000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.3, 0], 'humidity': [85, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [2.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [16, 0], 'wind': [1.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908190000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.1, 0], 'humidity': [86, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [1.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [15, 0], 'wind': [1.9, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908191000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.0, 0], 'humidity': [86, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.5, 0], 'precipitation24h': [6.0, 0], 'windDirection': [15, 0], 'wind': [2.8, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908192000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.0, 0], 'humidity': [86, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [15, 0], 'wind': [2.1, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908193000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.0, 0], 'humidity': [86, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [14, 0], 'wind': [2.2, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908194000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [26.8, 0], 'humidity': [87, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [14, 0], 'wind': [2.0, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908195000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.0, 0], 'humidity': [87, 0], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [15, 0], 'wind': [1.6, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}, '20250908200000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.1, 0], 'humidity': [86, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [14, 0], 'wind': [2.4, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 21:00時点
+latest_time:2025-09-08T21:00:00+09:00
+Loaded AMeDAS data {'20250908210000': {'prefNumber': 44, 'observationNumber': 112, 'temp': [27.3, 0], 'humidity': [83, 0], 'snow1h': [0, None], 'snow6h': [0, None], 'snow12h': [0, None], 'snow24h': [0, None], 'sun10m': [0, 0], 'sun1h': [0.0, 0], 'precipitation10m': [0.0, 0], 'precipitation1h': [0.0, 0], 'precipitation3h': [0.0, 0], 'precipitation24h': [6.0, 0], 'windDirection': [15, 0], 'wind': [2.3, 0], 'maxTempTime': {'hour': 4, 'minute': 41}, 'maxTemp': [36.1, 0], 'minTempTime': {'hour': 18, 'minute': 54}, 'minTemp': [22.9, 0], 'gustTime': {'hour': 7, 'minute': 42}, 'gustDirection': [1, 0], 'gust': [10.8, 0]}}
+mkdir: Access failed: 550 Can't create directory: File exists (/weather)
+Uploaded to /weather (done).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 22:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 23:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 00:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 01:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 02:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 03:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 04:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+=== 2025-09-09 04:35:01 start ===
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 05:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+Local cutoff:  20250810  (keep last 30 days)
+Remote cutoff: 20250601 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/train/publish/20250908_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/train/publish/20250908_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/train/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 9
+ progress: 50/312 candidates, kept 17
+ progress: 200/312 candidates, kept 47
+ progress: 225/312 candidates, kept 56
+ progress: 275/312 candidates, kept 72
+shinjuku_to_keiohachioji [weekday] 本数: 83
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 312
+ progress: 25/312 candidates, kept 7
+ progress: 50/312 candidates, kept 13
+ progress: 200/312 candidates, kept 45
+ progress: 225/312 candidates, kept 49
+ progress: 275/312 candidates, kept 61
+shinjuku_to_keiohachioji [holiday] 本数: 72
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 22
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 47
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 72
+ progress: 175/219 candidates, kept 84
+ progress: 200/219 candidates, kept 96
+kitano_to_takao [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 25
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 50
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 75
+ progress: 175/219 candidates, kept 88
+ progress: 200/219 candidates, kept 99
+kitano_to_takao [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 38
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 73
+ progress: 175/211 candidates, kept 86
+ progress: 200/211 candidates, kept 98
+takao_to_up [weekday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 25
+ progress: 75/211 candidates, kept 37
+ progress: 100/211 candidates, kept 50
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 77
+ progress: 175/211 candidates, kept 89
+ progress: 200/211 candidates, kept 102
+takao_to_up [holiday] 本数: 107
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 15
+ progress: 50/202 candidates, kept 29
+ progress: 75/202 candidates, kept 40
+ progress: 100/202 candidates, kept 52
+ progress: 125/202 candidates, kept 65
+ progress: 150/202 candidates, kept 77
+ progress: 175/202 candidates, kept 89
+ progress: 200/202 candidates, kept 102
+kitano_to_shinjuku [weekday] 本数: 103
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-09-09T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 202
+ progress: 25/202 candidates, kept 10
+ progress: 50/202 candidates, kept 21
+ progress: 75/202 candidates, kept 35
+ progress: 100/202 candidates, kept 48
+ progress: 125/202 candidates, kept 60
+ progress: 150/202 candidates, kept 73
+ progress: 175/202 candidates, kept 86
+ progress: 200/202 candidates, kept 98
+kitano_to_shinjuku [holiday] 本数: 99
+CSV saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/20250909_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/train/publish/takao35_timetable_20250909.json
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250909_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250909_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/timetables.html
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250909_shinjuku_to_takao3.json に保存されました。
+データは /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/20250909_takao3_to_shinjuku.json に保存されました。
+HTML saved -> /home/masuday/projects/takao35/py_code/train/../../py_data/train/publish/timetables.html
+Local cutoff:  20250810  (keep last 30 days)
+Remote cutoff: 20250601 (keep last 100 days)
+Latest S2T: /home/masuday/projects/takao35/py_data/train/publish/20250909_shinjuku_to_takao3.json
+Latest T2S: /home/masuday/projects/takao35/py_data/train/publish/20250909_takao3_to_shinjuku.json
+HTML path : /home/masuday/projects/takao35/py_data/train/publish/timetables.html
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded (finished).
+=== 2025-09-09 05:52:55 done ===
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 06:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 07:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 08:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
+更新OK: 09:00時点
+Traceback (most recent call last):
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 161, in <module>
+    xml = fetch_forecast_xml()
+  File "/home/masuday/projects/takao35/py_code/weather/jma.py", line 116, in fetch_forecast_xml
+    raise RuntimeError("予報URLが見つからない")
+RuntimeError: 予報URLが見つからない

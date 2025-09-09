@@ -7,7 +7,7 @@ export TZ=Asia/Tokyo
 BASE_DIR="/home/masuday/projects/takao35"
 PY="/home/masuday/projects/pyenv/py309/bin/python"   # pyenvの絶対パスを使用
 LOG_DIR="$BASE_DIR/logs"
-OUT_DIR="$BASE_DIR/py_data/keio"
+OUT_DIR="$BASE_DIR/py_data/train"
 mkdir -p "$LOG_DIR" "$OUT_DIR"
 
 # その日の 09:00 をターゲット（％はcronの特殊文字なのでここでは使わない）
@@ -15,7 +15,7 @@ DATE_STR="$(/usr/bin/date +%F)T09:00"
 ROUTES="shinjuku_to_takao_direct,shinjuku_to_keiohachioji,kitano_to_takao,takao_to_up,kitano_to_shinjuku"
 TARGETS="weekday,holiday"
 
-cd "$BASE_DIR/py_code"
+cd "$BASE_DIR/py_code/train"
 
 # 取得
 LOG_FILE="$LOG_DIR/keio_$(/usr/bin/date +%F).log"

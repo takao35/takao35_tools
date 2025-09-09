@@ -8,7 +8,7 @@ source ~/.secrets_coreserver
 : "${FTP_PASS:?set FTP_PASS}"
 
 BASE_DIR="/home/masuday/projects/takao35"
-PUB_DIR="$BASE_DIR/py_data/keio/publish"
+PUB_DIR="$BASE_DIR/py_data/train/publish"
 REMOTE_DIR="/train"     # CoreServer 側の配置先
 
 # === アップ対象（3点） ===
