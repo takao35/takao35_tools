@@ -1,5 +1,4 @@
 py_data/*
 !py_data/.gitkeep
-*/
-
 keys/*
+out_html/*

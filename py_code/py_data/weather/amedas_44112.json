@@ -1,0 +1,14 @@
+{
+  "station": "八王子(AMeDAS 44112)",
+  "latest_source_time": "2025-09-08T21:00:00+09:00",
+  "temperature_c": 27.3,
+  "precip_10m_mm": 0.0,
+  "precip_1h_mm": 0.0,
+  "sun_10m_min": 0,
+  "sun_1h_min": 0.0,
+  "wind_ms": 2.3,
+  "wind_dir_deg": 15,
+  "humidity_pct": 83,
+  "now_sky_guess": "くもり寄り",
+  "note": "気象庁アメダス実測 / 欠測はNone"
+}

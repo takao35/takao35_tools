@@ -1,0 +1,24 @@
+{
+  "generated_at": "2025-09-06T16:47:44.457569+09:00",
+  "lines": {
+    "jr_rapid": {
+      "status": "平常運転",
+      "detail": "運行情報・運休情報",
+      "updated_at": "2025-09-06T16:47:00+09:00",
+      "source": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=chuoline_rapidservice"
+    },
+    "jr_chuo": {
+      "status": "平常運転",
+      "detail": "運行情報・運休情報",
+      "updated_at": "2025-09-06T16:43:00+09:00",
+      "source": "https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=chuoline"
+    },
+    "keio": {
+      "status_keio_line": "平常運転",
+      "status_keio_takao": "平常運転",
+      "detail": "現在の運行情報 更新 2023年08月03日 18時07分 日本語 English 中文 한국어 京王線・井の頭線は平常通り運転しています。 列車におおむね15分以上の遅れが発生した場合もしくは予想される場合に、お知らせしております。 常に最新の情報を更新しております。ご覧の際はブラウザの「更新」ボタンで更新してからご覧ください。尚、最新情報を更新していますが、実際の運行状況と本ページの情報が異なる場合がありますので、目安としてご利用ください。 本ページの情報に基づくお客様の判断により発生した損害に対して、当社は一切の責任を負いかねますのであらかじめご了承ください。 遅延証明書 京王線・井の頭線の遅延証明書ご利用については 遅延証明書 をご覧ください。 都営新宿線・運行情報 京王線と相互直通運転している都営新宿線の運行情報です。 TOP 電車に乗る 運行情報",
+      "updated_at": "2025-09-06T16:47:44.455459+09:00",
+      "source": "https://www.keio.co.jp/unkou/unkou_pc.html"
+    }
+  }
+}

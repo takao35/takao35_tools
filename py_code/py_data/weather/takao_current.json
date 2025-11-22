@@ -1,0 +1,19 @@
+{
+  "title": "高尾山付近の天気",
+  "observed_at": "2025-09-09T08:00:00+09:00",
+  "coord": {
+    "lat": 35.624652,
+    "lon": 139.242783
+  },
+  "source": "open-meteo:jma",
+  "current": {
+    "weathercode": 1,
+    "weather_text": "晴れ(一部雲)",
+    "weather_icon": "🌤️",
+    "temperature_c": 26.0,
+    "wind_speed_ms": 2.7,
+    "wind_dir_deg": 337,
+    "wind_dir_text": "北北西",
+    "precip_mm": null
+  }
+}
