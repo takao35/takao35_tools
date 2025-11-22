@@ -1,3 +1,4 @@
 py_data/*
 !py_data/.gitkeep
 keys/*
+app/api/config.php
