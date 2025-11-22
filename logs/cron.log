@@ -42582,3 +42582,6 @@ Uploaded to /weather (done).
 rail status: OK | 京王線：平常・中央線快速：見合わせ
 mkdir: Access failed: 550 Can't create directory: File exists (/train)
 Uploaded: /train/takao_rail_info.(html|json)
+rail status: OK | 京王線：平常・中央線快速：見合わせ
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /train/takao_rail_info.(html|json)
