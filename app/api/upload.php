@@ -19,27 +19,24 @@ try {
         $userId = 'test_user';
     }
 
-    // 入力チェック
     if (!isset($_FILES['photo'])) {
         throw new Exception('No photo uploaded');
     }
 
-    // 位置情報は任意（削除）
     $latitude = isset($_POST['latitude']) ? floatval($_POST['latitude']) : null;
     $longitude = isset($_POST['longitude']) ? floatval($_POST['longitude']) : null;
     $takenAt = $_POST['taken_at'] ?? date('Y-m-d H:i:s');
     
-    // タイトル、カテゴリ、説明
     $title = $_POST['title'] ?? null;
     $category = $_POST['category'] ?? null;
     $description = $_POST['description'] ?? null;
 
-    // ファイルタイプチェック
-    $allowedTypes = ['image/jpeg', 'image/jpg', 'image/png'];
-    $fileType = $_FILES['photo']['type'];
+    // ファイル拡張子でチェック（MIMEタイプは信頼性が低いため）
+    $extension = strtolower(pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION));
+    $allowedExtensions = ['jpg', 'jpeg', 'png'];
     
-    if (!in_array($fileType, $allowedTypes)) {
-        throw new Exception('Invalid file type. Only JPG and PNG allowed.');
+    if (!in_array($extension, $allowedExtensions)) {
+        throw new Exception('Invalid file type. Only JPG and PNG allowed. (Extension: ' . $extension . ')');
     }
 
     // ファイルサイズチェック (10MB)
@@ -61,9 +58,8 @@ try {
         mkdir($photoDir, 0755, true);
     }
 
-    // ファイル名生成
-    $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
-    $filename = uniqid() . '.' . strtolower($extension);
+    // ファイル名生成（拡張子を保持）
+    $filename = uniqid() . '.' . $extension;
     $filepath = $photoDir . $filename;
 
     // ファイル保存
