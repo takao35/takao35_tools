@@ -4,7 +4,6 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization');
 
-// OPTIONSリクエスト対応
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit();
@@ -13,16 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 require_once __DIR__ . '/config.php';
 
 try {
-    // Firebase認証トークンの検証（一旦スキップ、後で実装）
-    // 本番ではFirebase Admin SDKで検証が必要
-    
-    // テスト用: Authorization headerからuser_idを取得
     $headers = getallheaders();
     if (isset($headers['Authorization'])) {
-        // "Bearer user_id" 形式を想定
         $userId = str_replace('Bearer ', '', $headers['Authorization']);
     } else {
-        // テスト用: デフォルトユーザー
         $userId = 'test_user';
     }
 
@@ -31,13 +24,15 @@ try {
         throw new Exception('No photo uploaded');
     }
 
-    if (!isset($_POST['latitude']) || !isset($_POST['longitude'])) {
-        throw new Exception('Location data required');
-    }
-
-    $latitude = floatval($_POST['latitude']);
-    $longitude = floatval($_POST['longitude']);
+    // 位置情報は任意（削除）
+    $latitude = isset($_POST['latitude']) ? floatval($_POST['latitude']) : null;
+    $longitude = isset($_POST['longitude']) ? floatval($_POST['longitude']) : null;
     $takenAt = $_POST['taken_at'] ?? date('Y-m-d H:i:s');
+    
+    // タイトル、カテゴリ、説明
+    $title = $_POST['title'] ?? null;
+    $category = $_POST['category'] ?? null;
+    $description = $_POST['description'] ?? null;
 
     // ファイルタイプチェック
     $allowedTypes = ['image/jpeg', 'image/jpg', 'image/png'];
@@ -59,7 +54,7 @@ try {
     $day = $date->format('d');
 
     // ディレクトリ作成
-    $baseDir = dirname(__DIR__) . '/photos/';  // /app/photos/
+    $baseDir = dirname(__DIR__) . '/photos/';
     $photoDir = $baseDir . $userId . '/' . $year . '/' . $month . '/' . $day . '/';
     
     if (!is_dir($photoDir)) {
@@ -84,23 +79,32 @@ try {
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
     );
 
-    // DBに保存（相対パス）
+    // DBに保存
     $relativeFilename = "$year/$month/$day/$filename";
     $stmt = $pdo->prepare(
-        "INSERT INTO photos (user_id, filename, latitude, longitude, taken_at) 
-         VALUES (?, ?, ?, ?, ?)"
+        "INSERT INTO photos (user_id, filename, title, category, description, latitude, longitude, taken_at) 
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
     );
-    $stmt->execute([$userId, $relativeFilename, $latitude, $longitude, $takenAt]);
+    $stmt->execute([
+        $userId, 
+        $relativeFilename, 
+        $title, 
+        $category, 
+        $description, 
+        $latitude, 
+        $longitude, 
+        $takenAt
+    ]);
     
     $photoId = $pdo->lastInsertId();
-
-    // URL返却
     $photoUrl = PHOTO_BASE_URL . $userId . '/' . $relativeFilename;
     
     echo json_encode([
         'success' => true,
         'photo_id' => $photoId,
         'url' => $photoUrl,
+        'title' => $title,
+        'category' => $category,
         'message' => 'Photo uploaded successfully'
     ], JSON_UNESCAPED_UNICODE);
 
