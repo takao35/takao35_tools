@@ -1,0 +1,10 @@
+<?php
+// データベース設定
+define('DB_HOST', 'localhost');  // ← 実際の値に変更
+define('DB_NAME', 'db_name');
+define('DB_USER', 'user_name');
+define('DB_PASS', 'your_password');           // ← 実際のパスワードに変更
+
+// 写真のベースURL
+define('PHOTO_BASE_URL', 'https://takaosan-go.jp/app/photos/');
+?>
