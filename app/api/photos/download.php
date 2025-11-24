@@ -10,16 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/../config/database.php';
 
 try {
-    // データベース接続
-    $pdo = new PDO(
-        "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4",
-        DB_USER,
-        DB_PASS,
-        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
-    );
+    // データベース接続（共通の PDO を利用）
+    $pdo = get_db_connection();
 
     // パラメータ取得
     $latitude = isset($_GET['lat']) ? floatval($_GET['lat']) : null;
