@@ -1,0 +1,5 @@
+<?php
+// config/firebase.php
+define('FIREBASE_API_KEY', 'your-firebase-api-key'); // FirebaseコンソールのWebアプリ設定から取得
+define('FIREBASE_PROJECT_ID', 'your-project-id');
+?>

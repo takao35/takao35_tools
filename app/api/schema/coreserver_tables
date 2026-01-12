@@ -1,0 +1,50 @@
+MariaDB [takao3_app]> desc notices;
++-------------+--------------+------+-----+---------------------+-------------------------------+
+| Field       | Type         | Null | Key | Default             | Extra                         |
++-------------+--------------+------+-----+---------------------+-------------------------------+
+| id          | int(11)      | NO   | PRI | NULL                | auto_increment                |
+| category    | varchar(50)  | NO   | MUL | NULL                |                               |
+| title       | varchar(255) | NO   |     | NULL                |                               |
+| content     | text         | YES  |     | NULL                |                               |
+| priority    | int(11)      | YES  |     | 0                   |                               |
+| is_pinned   | tinyint(1)   | YES  |     | 0                   |                               |
+| start_date  | date         | YES  |     | NULL                |                               |
+| expire_date | date         | YES  |     | NULL                |                               |
+| is_active   | tinyint(1)   | YES  | MUL | 1                   |                               |
+| data        | longtext     | YES  |     | NULL                |                               |
+| created_at  | timestamp    | NO   |     | current_timestamp() |                               |
+| updated_at  | timestamp    | NO   |     | current_timestamp() | on update current_timestamp() |
+| created_by  | varchar(128) | NO   |     | NULL                |                               |
++-------------+--------------+------+-----+---------------------+-------------------------------+
+
+MariaDB [takao3_app]> desc photos;
++-------------+---------------+------+-----+---------------------+----------------+
+| Field       | Type          | Null | Key | Default             | Extra          |
++-------------+---------------+------+-----+---------------------+----------------+
+| id          | bigint(20)    | NO   | PRI | NULL                | auto_increment |
+| user_id     | varchar(128)  | NO   | MUL | NULL                |                |
+| filename    | varchar(255)  | NO   |     | NULL                |                |
+| title       | varchar(255)  | YES  |     | NULL                |                |
+| category    | varchar(50)   | YES  |     | NULL                |                |
+| description | text          | YES  |     | NULL                |                |
+| latitude    | decimal(10,8) | YES  | MUL | NULL                |                |
+| longitude   | decimal(11,8) | YES  |     | NULL                |                |
+| taken_at    | datetime      | YES  | MUL | current_timestamp() |                |
+| uploaded_at | timestamp     | NO   |     | current_timestamp() |                |
++-------------+---------------+------+-----+---------------------+----------------+
+
+MariaDB [takao3_app]> desc users;
++--------------------+--------------+------+-----+---------------------+----------------+
+| Field              | Type         | Null | Key | Default             | Extra          |
++--------------------+--------------+------+-----+---------------------+----------------+
+| id                 | int(11)      | NO   | PRI | NULL                | auto_increment |
+| firebase_uid       | varchar(128) | NO   | UNI | NULL                |                |
+| display_name       | varchar(50)  | YES  |     | No Name             |                |
+| folder_name        | varchar(255) | YES  |     | NULL                |                |
+| is_admin           | tinyint(1)   | NO   |     | 0                   |                |
+| is_paid            | tinyint(1)   | NO   |     | 0                   |                |
+| paid_until         | date         | YES  |     | NULL                |                |
+| storage_quota_mb   | int(11)      | NO   |     | 100                 |                |
+| used_storage_bytes | bigint(20)   | NO   |     | 0                   |                |
+| created_at         | timestamp    | NO   |     | current_timestamp() |                |
++--------------------+--------------+------+-----+---------------------+----------------+
